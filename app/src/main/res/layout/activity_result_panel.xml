@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bgimp2"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".ResultPanel"
+    >
+
+     <TextView
+        android:id="@+id/quiz_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="YOUR SCORE IS"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/quiz_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="0 of 10"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/img_winner"
+        android:layout_width="241dp"
+        android:layout_height="214dp"
+        android:contentDescription="image"
+        android:src="@drawable/trophy"
+        android:layout_margin="30dp"
+        />
+    <TextView
+        android:id="@+id/quiz_congratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/btn_finishApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="THANK YOU FOR PLAYING"
+        android:textColor="#3C2424"
+        android:textSize="18sp"
+        />
+
+
+</LinearLayout>
